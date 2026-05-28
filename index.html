@@ -265,6 +265,13 @@ http://www.templatemo.com/tm-466-cafe-house
 			function gologin() {
 				window.location.href = "https://tharranadh.github.io/nadh/login";
 			}
+			
+			if(localStorage.getItem("login") === "true") {
+
+				document.getElementBy Id("user-info").innerText = "Sudah Login";
+
+				document.getElementBy Id("user-btn").innerText = "Logout";
+			}
 		</script>
 	  
     	</footer>
