@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (user) {
         document.getElementById("user-info").innerText = "Halo, " + user;
         document.getElementById("authArea").innerHTML = `
-            <button onclick="logout()" class="nav-cta">Logout</button>
+            <button onclick="logout()" class="nav-cta" style="color:black;">Logout</button>
         `;
     }
 
