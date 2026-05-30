@@ -35,15 +35,15 @@
 				<span class="login100-form-title p-b-41">
 					Account Login
 				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5">
+				<form id="loginForm" class="login100-form validate-form p-b-33 p-t-5">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="User name">
+						<input class="input100" type="text" id="username" name="username" placeholder="User name">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" id="password" name="pass" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
 					</div>
 
@@ -78,24 +78,6 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
-	<form id="loginForm">
-		<h3>Silahkan login</h3>
-		<label for="username">Nama Pengguna</label>
-		<input type="text" id="username" placeholder="Nama Pengguna.." required="required">
-
-		<label for="password">Password</label>
-		<input type="password" id="password" placeholder="password.." reqiured="required">
-		<!--<p id="message"></p>-->
-		<button type="submit">Masuk</button>
-
-		<div class="sosial">
-			<div class="go"> <a href="register.html">DAFTAR </a></div>
-			<div class="kanan"><i class="fab fa-google"></i> Google</div>
-		</div>
-		<button onclick="window.location.href"='/nadh/index.html'">
-		</button>
-		<div id="alertBox" class="alert" style="display:none;"></div>
-	</form>
 <script src="js/login.js"></script>
 </body>
 </html>
